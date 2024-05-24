@@ -1,0 +1,22 @@
+.wrap {
+}
+
+.choose-date {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 12px;
+    margin-bottom: 24px;
+}
+
+.table {
+    // padding-top: 12px;
+    width: 100%;
+    height: 100%;
+}

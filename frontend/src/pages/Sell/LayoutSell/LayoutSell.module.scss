@@ -1,0 +1,13 @@
+.wrap {
+    background-color: #f6f6f6;
+}
+
+.body {
+    display: flex;
+    height: 724px;
+    overflow: auto;
+    .content {
+        width: 100%;
+        overflow: auto;
+    }
+}
