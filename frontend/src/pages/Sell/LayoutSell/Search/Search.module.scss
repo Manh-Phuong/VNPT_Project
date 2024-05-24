@@ -1,0 +1,23 @@
+.wrap-search {
+    background-color: #f0f2f5;
+    height: 36px;
+    width: 660px;
+    border-radius: 99px;
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+    margin-bottom: 16px;
+    border: 1px solid transparent;
+    .search-input {
+        font-size: 16px;
+        margin-left: 12px;
+        outline: none;
+        border: none;
+        background-color: transparent;
+        width: 600px;
+    }
+}
+
+.active {
+    border: 1px solid #f44336;
+}

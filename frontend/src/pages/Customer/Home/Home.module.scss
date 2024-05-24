@@ -1,0 +1,21 @@
+.wrap-content {
+    padding-bottom: 100px;
+}
+.content {
+    margin-top: 120px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Tạo 5 cột bằng nhau trong mỗi hàng */
+    grid-auto-rows: auto; /* Tự động điều chỉnh chiều cao của mỗi hàng */
+    gap: 20px; /* Điều chỉnh khoảng cách giữa các cột và hàng theo cần thiết */
+    row-gap: 48px;
+    margin: 100px 16px;
+}
+
+.wrap-row {
+    margin: 48px 24px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+}

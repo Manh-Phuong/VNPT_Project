@@ -1,0 +1,43 @@
+.card-item {
+    width: 100%;
+    max-width: 280px;
+    min-width: 280px;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.card-item:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.price-label {
+    font-size: 16px;
+    color: #f44336;
+    font-weight: 600;
+}
+
+.btn-bottom {
+    position: relative;
+    right: -128px;
+    .favorite-icon {
+        color: #f44336;
+        cursor: pointer;
+    }
+}
+
+.active {
+    color: #f44336;
+}
+
+// .image-product {
+//     max-width: calc(100% - 82px);
+// }
+
+.typography {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
